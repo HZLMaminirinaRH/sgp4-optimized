@@ -1,0 +1,20 @@
+[package]
+name = "sgp4-optimized"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.7"
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[[bin]]
+name = "sgp4"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
