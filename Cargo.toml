@@ -1,7 +1,10 @@
 [package]
-name = "sgp4"
-version = "0.1.0"
+name = "sgp4-optimized-hzlmaminirinarh"
+version = "0.0.1"
 edition = "2021"
+description = "Un propagateur SGP4 optimisé et parallélisé pour le calcul orbital de satellites"
+license = "MIT"
+repository = "https://github.com/HZLMaminirinaRH/sgp4-optimized"
 
 [dependencies]
 rayon = "1.10"

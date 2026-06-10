@@ -127,8 +127,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "sgp4"
-version = "0.1.0"
+name = "sgp4-optimized-hzlmaminirinarh"
+version = "0.0.1"
 dependencies = [
  "rayon",
  "serde",
